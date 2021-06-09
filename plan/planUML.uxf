@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>744</x>
+      <y>512</y>
+      <w>144</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Uzytkownik
+--
+- id : Intiger
+- login : String
+- haslo : String
+--
++ ustawId() : Void
++ ustawLogin() : Void
++ ustawHaslo() : Void
++ pobierzId() : Intiger
++ pobierzLogin() : String
++ pobierzHaslo() : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>704</x>
+      <y>104</y>
+      <w>448</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>PlikZUzytkownikami
+--
+- nazwaPlikuZUzytkownikami : Const String
+- Uzytkowik: pobierzDaneUzytkownika() : String
+--
++ PlikZUzytkownikami()
++ dopiszUzytkownikaDoPliku() : void
++ wczytajUzytkownikowZPliku() : vector &lt;Uzytkownik&gt;
++ zapiszWszystkichUzytkownikowDoPliku() : void
+- czyPlikJestPusty() : Bool
+- zamienDaneUzytkownikaNaLinieZDanymiOddzielonaPionowymiKreskami() : String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>424</x>
+      <y>352</y>
+      <w>216</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>MetodyPomocnicze
+--
+--
++ konwerjsaIntNaString() : String
++ wczytajLinie() : String
++ konwersjaStringNaInt() : Intiger
++ pobierzLiczbe(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>416</x>
+      <y>512</y>
+      <w>320</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>AdresatMenager
+--
+- idOstatniegoAdresata : Intiger
+- adresaci: vector &lt;Adresat&gt;
+- PlikZAdresatami:plikZAdresatami
+- idZalogowanegoUzytkownikaAM: Intiger
+--
++ AdresatMenager()
++ dodajAdresata() : Intiger
++ wczytajAdresatowZalogowanegoUzytkownikaZPliku() : Void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>416</x>
+      <y>672</y>
+      <w>464</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>PlikZAdresatami
+--
+- czyPlikJestPusty() : Bool
+- zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami() : String
+- pobierzIdUzytkownikaZDanychOddzielonychPionowymiKreskami() : Intiger
+- pobierzIdAdresataZDanychOddzielonychPionowymiKreskami() : Intiger
+- pobierzDaneAdresata() : Adresat
+--
++ dopiszAdresataDoPliku() : Void
++ wczytajAdresatowZalogowanegoUzytkownikaZPliku : Void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>904</x>
+      <y>352</y>
+      <w>248</w>
+      <h>304</h>
+    </coordinates>
+    <panel_attributes>Adresat
+--
+- id : Intiger
+- idUzytkownika : Intiger
+- imie : String
+- nazwisko : String
+- numerTelefonu : String
+- email : String
+- adres : String
+--
++ ustawId() : Void
++ ustawIdUzytkownika() : Void
++ ustawImie() : Void
++ ustawNazwisko() : Void
++ ustawNowyNumerTelefonu() : Void
++ ustawEmail() : Void
++ ustawAdres() : Void
++ pobierzId() : Intiger
++ pobierzIdUzytkownika() : Intiger
++ pobierzImie() : String
++ pobierzNazwisko() : String
++ pobierzNumerTelefonu() : String
++ pobierzEmail() : String
++ pobierzAdres() : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>424</x>
+      <y>104</y>
+      <w>272</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>UzytkonikMenager
+--
+- idZalogowanegoUzytkownika : Intiger
+- uzytkownicy: vector &lt;Uzytkownik&gt;
+- PlikZUzytkownikami:plikZUzytkownikami
+--
++ rejestracjaUzytkownika () : void
++ logowanieUzytkownika () : Intiger
++ wypiszWszytskichUzytkownikow() : void
++ wczytajUzytkownikowZPliku() : void
++ wylogowanieUzytkownika() : void
++ zmianaHaslaZalogowanegoUzytkownika : void
++ pobierzIdZalogowanegoUzytkownika() : Intiger
+- podajDaneNowegoUzytkownika() : Uzytkownik
+- pobierzIdNowegoUzytkownika() : Intiger
+- czyIstniejeLogin(): string
+- czyIstniejeLogin() : Bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>648</x>
+      <y>352</y>
+      <w>232</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>KsiazkaAdresowa
+--
+- UzytkonikMenager : uzytkownikMenager
+- AdresatMenager : adresatMenager
+--
++ rejestracjaUzytkownika() : Void
++ wypiszWszystkichUzytkownikow() : Void
++ logowanieUzytkownika() : Void
++ wylogowanieUzytkownika() : Void
++ dodajAdresata() : Void
++ dodajAdresata() : Void
++ wczytajAdresatowZalogowanegoUzytkownikaZPlikuKA() : Void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
