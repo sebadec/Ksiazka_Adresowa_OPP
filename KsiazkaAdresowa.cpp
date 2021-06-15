@@ -29,6 +29,8 @@ void KsiazkaAdresowa::wylogowanieUzytkownika()
     uzytkownikMenager.wylogowanieUzytkownikaUM();
     delete adresatMenager;
     adresatMenager = NULL;
+    cout << "Wylogowanie udane" << endl;
+    system("pause");
 }
 
 void KsiazkaAdresowa::dodajAdresata()
@@ -46,5 +48,6 @@ void KsiazkaAdresowa::dodajAdresata()
 
 void KsiazkaAdresowa::wczytajAdresatowZalogowanegoUzytkownikaZPlikuKA()
 {
-    adresatMenager.wczytajAdresatowZalogowanegoUzytkownikaZPlikuAM();
+    int idZalogowanegoAdresata = uzytkownikMenager.pobierzIdZalogowanegoUzytkownika();
+    adresatMenager->wczytajAdresatowZalogowanegoUzytkownikaZPlikuAM(idZalogowanegoAdresata);
 }

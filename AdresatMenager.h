@@ -9,9 +9,6 @@
 
 #include "Adresat.h"
 #include "PlikZAdresatami.h"
-//#include "MetodyPomocnicze.h"
-//#include "UzytkonikMenager.h"
-//#include "KsiazkaAdresowa.h"
 
 using namespace std;
 
@@ -32,9 +29,7 @@ public:
     };
     void dodajAdresataAM();
     void wyswietlWszytskichAdresatow();
-    void wczytajAdresatowZalogowanegoUzytkownikaZPlikuAM();
-
-
+    void wczytajAdresatowZalogowanegoUzytkownikaZPlikuAM(int idZalogowanegoUzytkownikaAM);
 
 };
 

@@ -41,7 +41,7 @@ Adresat AdresatMenager::podajDaneNowegoAdresata()
     return adresat;
 }
 
-void AdresatMenager::wczytajAdresatowZalogowanegoUzytkownikaZPlikuAM()
+void AdresatMenager::wczytajAdresatowZalogowanegoUzytkownikaZPlikuAM(int idZalogowanegoUzytkownikaAM)
 {
-    plikZAdresatami.wczytajAdresatowZalogowanegoUzytkownikaZPliku(UzytkonikMenager::pobierzIdZalogowanegoUzytkownika());
+    plikZAdresatami.wczytajAdresatowZalogowanegoUzytkownikaZPliku(idZalogowanegoUzytkownikaAM);
 }

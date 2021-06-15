@@ -66,7 +66,7 @@ void UzytkonikMenager::wypiszWszytskichUzytkownikow()
 
 void UzytkonikMenager::logowanieUzytkownika()
 {
-    //Uzytkownik uzytkownik;
+    Uzytkownik uzytkownik;
     string login = "", haslo = "";
 
     cout << endl << "Podaj login: ";
