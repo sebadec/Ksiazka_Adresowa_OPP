@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy22.txt");
+    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy22.txt", "Adresaci22.txt");
 
     ksiazkaAdresowa.wczytajAdresatowZalogowanegoUzytkownikaZPlikuKA();
 

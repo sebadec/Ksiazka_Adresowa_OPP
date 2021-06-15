@@ -64,14 +64,9 @@ void UzytkonikMenager::wypiszWszytskichUzytkownikow()
     }
 }
 
-void UzytkonikMenager::wczytajUzytkownikowZPliku()
+void UzytkonikMenager::logowanieUzytkownika()
 {
-    uzytkownicy = plikZUzytkownikami.wczytajUzytkownikowZPliku();
-}
-
-int UzytkonikMenager::logowanieUzytkownika()
-{
-    Uzytkownik uzytkownik;
+    //Uzytkownik uzytkownik;
     string login = "", haslo = "";
 
     cout << endl << "Podaj login: ";
@@ -89,24 +84,24 @@ int UzytkonikMenager::logowanieUzytkownika()
 
                 if (itr -> Uzytkownik::pobierzHaslo() == haslo)
                 {
+                    idZalogowanegoUzytkownika = itr -> Uzytkownik::pobierzId();
                     cout << endl << "Zalogowales sie." << endl << endl;
                     system("pause");
-                    idZalogowanegoUzytkownika = itr -> Uzytkownik::pobierzId();
-                    return idZalogowanegoUzytkownika;
+                    return;
                 }
             }
             cout << "Wprowadzono 3 razy bledne haslo." << endl;
             system("pause");
-            return 0;
+            return;
         }
         itr++;
     }
     cout << "Nie ma uzytkownika z takim loginem" << endl << endl;
     system("pause");
-    return 0;
+    return;
 }
 
-void UzytkonikMenager::zmianaHaslaZalogowanegoUzytkownikaUM (int idZalogowanegoUzytkownika)
+void UzytkonikMenager::zmianaHaslaZalogowanegoUzytkownikaUM()
 {
     string noweHaslo = "";
     cout << "Podaj nowe haslo: ";
@@ -127,8 +122,14 @@ void UzytkonikMenager::zmianaHaslaZalogowanegoUzytkownikaUM (int idZalogowanegoU
 void UzytkonikMenager::wylogowanieUzytkownikaUM()
 {
     idZalogowanegoUzytkownika = 0;
-    cout << "Wylogowanie udane." << endl;
-    cout << "TO_DO: USUNECIE ADRESASTÓW JAK BEDA ZAIMPLEMENTOWANE" << endl;
+}
+
+bool UzytkonikMenager::czyUzytkownikJestZalogowany()
+{
+    if (idZalogowanegoUzytkownika > 0)
+        return true;
+    else
+        return false;
 }
 
 int UzytkonikMenager::pobierzIdZalogowanegoUzytkownika()

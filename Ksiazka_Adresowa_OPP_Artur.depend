@@ -574,3 +574,164 @@
 1622729254 source:c:\users\admin\downloads\ksiazka_adresowa_opp_artur 06 - adresaci\uzytkownik.cpp
 	"Uzytkownik.h"
 
+1622729232 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\adresat.cpp
+	"Adresat.h"
+
+1622729232 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\adresat.h
+	<iostream>
+
+1623266093 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\adresatmenager.cpp
+	"AdresatMenager.h"
+
+1623266143 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\adresatmenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Adresat.h"
+	"PlikZAdresatami.h"
+	"MetodyPomocnicze.h"
+	"UzytkonikMenager.h"
+
+1623261076 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\plikzadresatami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Adresat.h"
+	"MetodyPomocnicze.h"
+
+1623262340 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<string>
+	"Uzytkownik.h"
+
+1622729256 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\uzytkownik.h
+	<iostream>
+
+1623427009 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\uzytkonikmenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+	"MetodyPomocnicze.h"
+
+1623427169 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1623265309 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1623426889 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\ksiazkaadresowa.h
+	<iostream>
+	"UzytkonikMenager.h"
+	"AdresatMenager.h"
+
+1623265332 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\main.cpp
+	<iostream>
+	"KsiazkaAdresowa.h"
+
+1622733194 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1623261083 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
+1623427211 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1623427009 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\uzytkonikmenager.cpp
+	"UzytkonikMenager.h"
+
+1622729256 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 07\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1622729232 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\adresat.cpp
+	"Adresat.h"
+
+1622729232 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\adresat.h
+	<iostream>
+
+1623617699 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\adresatmenager.cpp
+	"AdresatMenager.h"
+
+1623603764 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\adresatmenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Adresat.h"
+	"PlikZAdresatami.h"
+
+1623617930 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\plikzadresatami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Adresat.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+
+1623616533 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<string>
+
+1622729256 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\uzytkownik.h
+	<iostream>
+
+1623617288 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\uzytkonikmenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+
+1623427169 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1623265309 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1623429714 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\ksiazkaadresowa.h
+	<iostream>
+	"UzytkonikMenager.h"
+	"AdresatMenager.h"
+
+1623429747 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\main.cpp
+	<iostream>
+	"KsiazkaAdresowa.h"
+
+1623598425 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1623618350 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
+1623427211 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1623598550 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\uzytkonikmenager.cpp
+	"UzytkonikMenager.h"
+
+1622729256 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp_artur 08\uzytkownik.cpp
+	"Uzytkownik.h"
+

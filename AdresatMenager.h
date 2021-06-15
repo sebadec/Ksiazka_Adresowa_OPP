@@ -9,25 +9,29 @@
 
 #include "Adresat.h"
 #include "PlikZAdresatami.h"
-#include "MetodyPomocnicze.h"
-#include "UzytkonikMenager.h"
+//#include "MetodyPomocnicze.h"
+//#include "UzytkonikMenager.h"
 //#include "KsiazkaAdresowa.h"
 
 using namespace std;
 
 class AdresatMenager{
 
-string nazwaPlikuZAdresatami = "Adresaci.txt";
-int idOstatniegoAdresata;
+const int ID_ZALOGOWANEGO_UZYTKOWNIKA;
 vector <Adresat> adresaci;
-int idZalogowanegoUzytkownikaAM;
+PlikZAdresatami plikZAdresatami;
 
-    PlikZAdresatami plikZAdresatami;
     Adresat podajDaneNowegoAdresata();
+    void wyswietlDaneAdresata(Adresat adresat);
 
 public:
-    AdresatMenager(){};
-    int dodajAdresataAM();
+    AdresatMenager(string nazwaPlikuZAdresatami, int idZalogowanegoUzytkownika)
+    : plikZAdresatami(nazwaPlikuZAdresatami), ID_ZALOGOWANEGO_UZYTKOWNIKA(idZalogowanegoUzytkownika)
+    {
+        adresaci = plikZAdresatami.wczytajAdresatowZalogowanegoUzytkownikaZPliku(ID_ZALOGOWANEGO_UZYTKOWNIKA);
+    };
+    void dodajAdresataAM();
+    void wyswietlWszytskichAdresatow();
     void wczytajAdresatowZalogowanegoUzytkownikaZPlikuAM();
 
 

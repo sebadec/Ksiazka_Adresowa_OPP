@@ -7,30 +7,33 @@
 #include <cstdlib>
 
 #include "Adresat.h"
-//#include "PlikZAdresatami.h"
+#include "UzytkonikMenager.h"
 #include "MetodyPomocnicze.h"
+//#include "KsiazkaAdresowa.h"
 
 using namespace std;
 
 class PlikZAdresatami
 {
 
-    bool czyPlikJestPusty();
+    const string NAZWA_PLIKU_Z_ADRESATAMI;
+    int idOstatniegoAdreata;
 
+    bool czyPlikJestPusty(fstream &plikTekstwoy);
     string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
+    string pobierzLiczbe(string tekst, int pozycjaZnaku);
+    Adresat pobierzDaneAdresata(string daneAdresataOddzielonePionowymiKreskami);
     int pobierzIdUzytkownikaZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami);
     int pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami);
-    Adresat pobierzDaneAdresata(string daneAdresataOddzielonePionowymiKreskami);
-    //string zamienDaneUzytkownikaNaLinieZDanymiOddzielonaPionowymiKreskami(Uzytkownik uzytkownik);
-    //Uzytkownik pobierzDaneUzytkownika(string daneJednegoUzytkownikaOddzielonePionowymiKreskami);
 
 public:
-    //PlikZAdresatami(string NAZWAPLIKUZADRESATAMI) : nazwaPlikuZAdresatami(NAZWAPLIKUZADRESATAMI){};
-    void dopiszAdresataDoPliku(Adresat adresat);
-    void wczytajAdresatowZalogowanegoUzytkownikaZPliku();
-    //void dopiszUzytkownikaDoPliku(Uzytkownik uzytkownik);
-    //vector <Uzytkownik> wczytajUzytkownikowZPliku();
-    //void zapiszWszystkichUzytkownikowDoPliku(vector <Uzytkownik> uzytkownicy);
+    PlikZAdresatami(string nazwaPlikuZAdresatami) : NAZWA_PLIKU_Z_ADRESATAMI(nazwaPlikuZAdresatami)
+    {
+    idOstatniegoAdreata = 0;
+    };
+    bool dopiszAdresataDoPliku(Adresat adresat);
+    vector <Adresat> wczytajAdresatowZalogowanegoUzytkownikaZPliku(int idZalogowanegoUzytkownika);
+    int pobierzIdOstatniegoAdresata();
 };
 
 #endif

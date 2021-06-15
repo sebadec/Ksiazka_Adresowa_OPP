@@ -5,7 +5,7 @@
 #include <sstream>
 #include <string>
 
-#include "Uzytkownik.h"
+//#include "Uzytkownik.h"
 
 using namespace std;
 
@@ -16,6 +16,7 @@ public:
     static string wczytajLinie();
     static int konwersjaStringNaInt(string liczba);
     static string pobierzLiczbe(string tekst, int pozycjaZnaku);
+    static char wczytajZnak();
 };
 
 #endif
