@@ -22,6 +22,7 @@ PlikZAdresatami plikZAdresatami;
     Adresat podajDaneNowegoAdresata();
     void wyswietlDaneAdresata(Adresat adresat);
     void zaktualizujDaneWybranegoAdresata(Adresat adresat);
+    void wyswietlIloscWyszukanychAdresatow(int iloscAdresatow);
 
 public:
     AdresatMenager(string nazwaPlikuZAdresatami, int idZalogowanegoUzytkownika)
@@ -35,6 +36,8 @@ public:
     void usunAdresata();
     int podajIdWybranegoAdresata();
     void edytujAdresata();
+    void wyszukajAdresatowPoImieniu();
+    void wyszukajAdresatowPoNazwisku();
 
 };
 

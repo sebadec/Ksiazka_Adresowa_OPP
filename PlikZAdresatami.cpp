@@ -256,3 +256,39 @@ void PlikZAdresatami::edytujWybranaLinieWPliku(Adresat adresat)
     }
 }
 
+
+
+/*
+
+void KsiazkaAdresowa::szukajImie()
+{
+    plikZnajomiUzytkownika.wczytajZnajomychZPliku(znajomi,IDZalogowanegoUzytkownika);
+
+    string poszukiwaneImie;
+    bool znalezionyZnajomy = 0;
+    cout << endl << "Podaj imie znajomego, ktorego wyszukac: ";
+    cin >> poszukiwaneImie;
+
+    for (vector <Znajomy>::iterator itr = znajomi.begin(); itr != znajomi.end(); itr++)
+    {
+        if (itr -> pobierzImieZnajomego() == poszukiwaneImie)
+        {
+            znalezionyZnajomy = 1;
+            cout << endl;
+            cout << "Numer ID Znajomego: " << itr -> pobierzIdZnajomego() << endl;
+            cout << itr -> pobierzImieZnajomego() << " " << itr -> pobierzNazwiskoZnajomego() << endl;
+            cout << "Numer telefonu: " << itr -> pobierzNumerTelefonuZnajomego() << endl;
+            cout << "Mail: " << itr -> pobierzMailZnajomego() << endl;
+            cout << "Adres: " << itr -> pobierzAdresZnajomego() << endl;
+            cout << endl;
+        }
+    }
+
+    if(!znalezionyZnajomy)   //jesli zmienna Znaleziony_znajomy==0
+    {
+        cout << endl << "Nie znaleziono osoby o tym imieniu." << endl << endl;
+    }
+    system("pause");
+}
+
+*/

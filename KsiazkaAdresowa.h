@@ -34,7 +34,10 @@ public:
     void wczytajAdresatowZalogowanegoUzytkownikaZPlikuKA();
     void usunAdresata();
     void edytujAdresata();
-
+    void wyszukajAdresatowPoImieniu();
+    void wyszukajAdresatowPoNazwisku();
+    bool czyUzytkownikJestZalogowany();
+    void wyswietlWszytskichAdresatow();
 
 };
 
