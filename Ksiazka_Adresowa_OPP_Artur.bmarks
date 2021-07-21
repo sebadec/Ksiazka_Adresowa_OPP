@@ -1,68 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <BrowseTracker_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="UzytkonikMenager.h" open="1" top="0" tabpos="1">
-		<Cursor position="1020" topLine="15" />
-		<BrowseMarks positions="418" />
-	</File>
-	<File name="Adresat.cpp" open="1" top="0" tabpos="2">
-		<Cursor position="0" topLine="0" />
-	</File>
-	<File name="Uzytkownik.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="0" topLine="0" />
-	</File>
-	<File name="MetodyPomocnicze.h" open="1" top="0" tabpos="4">
-		<Cursor position="431" topLine="0" />
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="550" topLine="9" />
 		<BrowseMarks positions="" />
 	</File>
-	<File name="PlikZAdresatami.h" open="1" top="1" tabpos="5">
-		<Cursor position="1251" topLine="9" />
-		<BrowseMarks positions="790,1116" />
-	</File>
-	<File name="AdresatMenager.h" open="1" top="0" tabpos="6">
-		<Cursor position="808" topLine="6" />
-		<BrowseMarks positions="" />
-	</File>
-	<File name="KsiazkaAdresowa.cpp" open="1" top="0" tabpos="7">
+	<File name="KsiazkaAdresowa.cpp" open="1" top="0" tabpos="2">
 		<Cursor position="0" topLine="0" />
 		<BrowseMarks positions="350,612,1325" />
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="8">
-		<Cursor position="0" topLine="0" />
-		<BrowseMarks positions="514" />
+	<File name="AdresatMenager.h" open="1" top="0" tabpos="3">
+		<Cursor position="0" topLine="14" />
 	</File>
-	<File name="Uzytkownik.h" open="1" top="0" tabpos="9">
-		<Cursor position="0" topLine="0" />
-		<BrowseMarks positions="" />
+	<File name="UzytkonikMenager.h" open="1" top="0" tabpos="4">
+		<Cursor position="218" topLine="3" />
 	</File>
-	<File name="Adresat.h" open="1" top="0" tabpos="10">
+	<File name="MetodyPomocnicze.cpp" open="1" top="0" tabpos="5">
 		<Cursor position="0" topLine="0" />
-		<BrowseMarks positions="" />
 	</File>
-	<File name="PlikZUzytkownikami.h" open="1" top="0" tabpos="11">
-		<Cursor position="407" topLine="0" />
-		<BrowseMarks positions="" />
+	<File name="Adresat.h" open="1" top="0" tabpos="6">
+		<Cursor position="0" topLine="4" />
 	</File>
-	<File name="MetodyPomocnicze.cpp" open="1" top="0" tabpos="12">
+	<File name="Uzytkownik.h" open="1" top="0" tabpos="7">
 		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="PlikZAdresatami.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="8238" topLine="213" />
+		<BrowseMarks positions="2041,5528" />
+	</File>
+	<File name="Adresat.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="KsiazkaAdresowa.h" open="1" top="0" tabpos="10">
+		<Cursor position="932" topLine="14" />
+	</File>
+	<File name="PlikZAdresatami.h" open="1" top="0" tabpos="11">
+		<Cursor position="0" topLine="0" />
+		<BrowseMarks positions="685,1099" />
+	</File>
+	<File name="PlikZUzytkownikami.h" open="1" top="0" tabpos="12">
+		<Cursor position="0" topLine="2" />
 	</File>
 	<File name="AdresatMenager.cpp" open="1" top="0" tabpos="13">
-		<Cursor position="510" topLine="0" />
-		<BrowseMarks positions="96,1213,1421" />
+		<Cursor position="2200" topLine="0" />
+		<BrowseMarks positions="96,1213,1421,2124,3419,3648" />
 	</File>
-	<File name="KsiazkaAdresowa.h" open="1" top="0" tabpos="14">
-		<Cursor position="805" topLine="8" />
-		<BrowseMarks positions="269" />
-	</File>
-	<File name="UzytkonikMenager.cpp" open="1" top="0" tabpos="15">
-		<Cursor position="0" topLine="0" />
-		<BrowseMarks positions="3584" />
-	</File>
-	<File name="PlikZUzytkownikami.cpp" open="1" top="0" tabpos="16">
+	<File name="PlikTekstwoy.h" open="1" top="1" tabpos="14">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="PlikZAdresatami.cpp" open="1" top="0" tabpos="17">
+	<File name="MetodyPomocnicze.h" open="1" top="0" tabpos="15">
+		<Cursor position="116" topLine="0" />
+	</File>
+	<File name="PlikTekstwoy.h.cpp" open="1" top="0" tabpos="16">
 		<Cursor position="0" topLine="0" />
-		<BrowseMarks positions="933,2051,5536" />
+	</File>
+	<File name="Uzytkownik.cpp" open="1" top="0" tabpos="17">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="UzytkonikMenager.cpp" open="1" top="0" tabpos="18">
+		<Cursor position="0" topLine="111" />
+	</File>
+	<File name="PlikZUzytkownikami.cpp" open="1" top="0" tabpos="19">
+		<Cursor position="0" topLine="105" />
+		<BrowseMarks positions="" />
 	</File>
 </BrowseTracker_layout_file>

@@ -9,7 +9,6 @@
 
 #include "Uzytkownik.h"
 #include "PlikZUzytkownikami.h"
-//#include "MetodyPomocnicze.h"
 
 using namespace std;
 
@@ -35,9 +34,7 @@ public:
     void zmianaHaslaZalogowanegoUzytkownikaUM();
     void wylogowanieUzytkownikaUM();
     bool czyUzytkownikJestZalogowany();
-    //UzytkonikMenager(string nazwaPlikuZUzytkownikami) : plikZUzytkownikami(nazwaPlikuZUzytkownikami){};
     int pobierzIdZalogowanegoUzytkownika();
-    //static int idZalogowanegoUzytkownikaPublic = idZalogowanegoUzytkownika;
 
 };
 

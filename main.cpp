@@ -22,6 +22,12 @@ int main()
 
     ksiazkaAdresowa.dodajAdresata();
 
+    ksiazkaAdresowa.dodajAdresata();
+
+    ksiazkaAdresowa.usunAdresata();
+
+    ksiazkaAdresowa.edytujAdresata();
+
     ksiazkaAdresowa.wylogowanieUzytkownika();
 
     ksiazkaAdresowa.wypiszWszystkichUzytkownikow();

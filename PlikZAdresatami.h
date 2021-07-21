@@ -9,11 +9,11 @@
 #include "Adresat.h"
 #include "UzytkonikMenager.h"
 #include "MetodyPomocnicze.h"
-//#include "KsiazkaAdresowa.h"
+#include "PlikTekstwoy.h"
 
 using namespace std;
 
-class PlikZAdresatami
+class PlikZAdresatami : public PlikTekstowy
 {
 
     const string NAZWA_PLIKU_Z_ADRESATAMI;
@@ -27,13 +27,18 @@ class PlikZAdresatami
     int pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami);
 
 public:
-    PlikZAdresatami(string nazwaPlikuZAdresatami) : NAZWA_PLIKU_Z_ADRESATAMI(nazwaPlikuZAdresatami)
+    PlikZAdresatami(string nazwaPliku) : PlikTekstowy(nazwaPliku)
     {
     idOstatniegoAdreata = 0;
     };
     bool dopiszAdresataDoPliku(Adresat adresat);
     vector <Adresat> wczytajAdresatowZalogowanegoUzytkownikaZPliku(int idZalogowanegoUzytkownika);
     int pobierzIdOstatniegoAdresata();
+    void usunWybranaLinieWPliku(int idUsuwanegoAdresata);
+    void usunPlik(string nazwaPlikuZRozszerzeniem);
+    void zmienNazwePliku(string staraNazwa, string nowaNazwa);
+    void dopisz(string tekst);
+    void edytujWybranaLinieWPliku(Adresat adresat);
 };
 
 #endif

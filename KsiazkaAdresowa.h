@@ -31,7 +31,10 @@ public:
     void zmianaHaslaZalogowanegoUzytkownika();
     void wylogowanieUzytkownika();
     void dodajAdresata();
-    void wczytajAdresatowZalogowanegoUzytkownikaZPlikuKA(); // void wyswietlWszytskichAdresatow();
+    void wczytajAdresatowZalogowanegoUzytkownikaZPlikuKA();
+    void usunAdresata();
+    void edytujAdresata();
+
 
 };
 

@@ -9,6 +9,7 @@
 
 #include "Adresat.h"
 #include "PlikZAdresatami.h"
+#include "MetodyPomocnicze.h"
 
 using namespace std;
 
@@ -20,6 +21,7 @@ PlikZAdresatami plikZAdresatami;
 
     Adresat podajDaneNowegoAdresata();
     void wyswietlDaneAdresata(Adresat adresat);
+    void zaktualizujDaneWybranegoAdresata(Adresat adresat);
 
 public:
     AdresatMenager(string nazwaPlikuZAdresatami, int idZalogowanegoUzytkownika)
@@ -30,6 +32,9 @@ public:
     void dodajAdresataAM();
     void wyswietlWszytskichAdresatow();
     void wczytajAdresatowZalogowanegoUzytkownikaZPlikuAM(int idZalogowanegoUzytkownikaAM);
+    void usunAdresata();
+    int podajIdWybranegoAdresata();
+    void edytujAdresata();
 
 };
 

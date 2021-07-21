@@ -51,3 +51,13 @@ void KsiazkaAdresowa::wczytajAdresatowZalogowanegoUzytkownikaZPlikuKA()
     int idZalogowanegoAdresata = uzytkownikMenager.pobierzIdZalogowanegoUzytkownika();
     adresatMenager->wczytajAdresatowZalogowanegoUzytkownikaZPlikuAM(idZalogowanegoAdresata);
 }
+
+void KsiazkaAdresowa::usunAdresata()
+{
+    adresatMenager->usunAdresata();
+}
+
+void KsiazkaAdresowa::edytujAdresata()
+{
+    adresatMenager->edytujAdresata();
+}
