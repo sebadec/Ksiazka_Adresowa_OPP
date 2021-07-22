@@ -70,6 +70,7 @@ void AdresatMenager::usunAdresata()
                 plikZAdresatami.usunWybranaLinieWPliku(idUsuwanegoAdresata);
                 adresaci.erase(itr);
                 cout << endl << endl << "Szukany adresat zostal USUNIETY" << endl << endl;
+                wczytajAdresatowZalogowanegoUzytkownikaZPlikuAM(itr -> Adresat::pobierzIdUzytkownika());
                 system("pause");
                 return;
             }

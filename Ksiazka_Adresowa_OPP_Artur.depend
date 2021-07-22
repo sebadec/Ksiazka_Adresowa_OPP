@@ -1254,3 +1254,91 @@
 1623771926 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\ksiazka_adresowa_opp-artur 14\uzytkownik.cpp
 	"Uzytkownik.h"
 
+1626945126 source:c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\adresat.cpp
+	"Adresat.h"
+
+1626945126 c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\adresat.h
+	<iostream>
+
+1626946287 source:c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\adresatmenager.cpp
+	"AdresatMenager.h"
+
+1626945126 c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\adresatmenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Adresat.h"
+	"PlikZAdresatami.h"
+	"MetodyPomocnicze.h"
+
+1626945126 c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\plikzadresatami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Adresat.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstwoy.h"
+
+1626945126 c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\uzytkonikmenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+
+1626945126 c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\uzytkownik.h
+	<iostream>
+
+1626945126 c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1626945126 c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<string>
+
+1626945126 c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\pliktekstwoy.h
+	<iostream>
+	<fstream>
+
+1626945126 source:c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1626945126 c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\ksiazkaadresowa.h
+	<iostream>
+	"UzytkonikMenager.h"
+	"AdresatMenager.h"
+
+1626945126 source:c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\main.cpp
+	<iostream>
+	"KsiazkaAdresowa.h"
+
+1626945126 source:c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1626945126 source:c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
+1626945126 source:c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1626945126 source:c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\uzytkonikmenager.cpp
+	"UzytkonikMenager.h"
+
+1626945126 source:c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1626945126 source:c:\users\sdec\desktop\c++\ksiazka_adresowa_opp-main\pliktekstwoy.h.cpp
+	"PlikTekstwoy.h"
+
