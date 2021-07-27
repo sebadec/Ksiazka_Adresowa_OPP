@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>305</x>
-      <y>450</y>
+      <x>0</x>
+      <y>445</y>
       <w>90</w>
       <h>95</h>
     </coordinates>
@@ -26,10 +26,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>310</x>
-      <y>585</y>
+      <x>5</x>
+      <y>580</y>
       <w>280</w>
-      <h>150</h>
+      <h>170</h>
     </coordinates>
     <panel_attributes>PlikZUzytkownikami
 --
@@ -47,8 +47,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>650</x>
-      <y>585</y>
+      <x>345</x>
+      <y>580</y>
       <w>155</w>
       <h>110</h>
     </coordinates>
@@ -70,8 +70,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>865</x>
-      <y>395</y>
+      <x>560</x>
+      <y>390</y>
       <w>210</w>
       <h>155</h>
     </coordinates>
@@ -99,8 +99,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>865</x>
-      <y>580</y>
+      <x>560</x>
+      <y>575</y>
       <w>240</w>
       <h>170</h>
     </coordinates>
@@ -128,8 +128,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1115</x>
-      <y>360</y>
+      <x>810</x>
+      <y>355</y>
       <w>145</w>
       <h>190</h>
     </coordinates>
@@ -162,8 +162,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>415</x>
-      <y>395</y>
+      <x>110</x>
+      <y>390</y>
       <w>170</w>
       <h>160</h>
     </coordinates>
@@ -190,8 +190,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>625</x>
-      <y>180</y>
+      <x>320</x>
+      <y>175</y>
       <w>210</w>
       <h>170</h>
     </coordinates>
@@ -221,10 +221,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>670</x>
-      <y>710</y>
-      <w>135</w>
-      <h>80</h>
+      <x>345</x>
+      <y>705</y>
+      <w>155</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>PlikTekstowy
 --
@@ -238,19 +238,19 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>490</x>
-      <y>260</y>
+      <x>185</x>
+      <y>255</y>
       <w>145</w>
       <h>145</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>270.0;10.0;10.0;10.0;10.0;270.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>830</x>
-      <y>260</y>
+      <x>525</x>
+      <y>255</y>
       <w>145</w>
       <h>145</h>
     </coordinates>
@@ -260,19 +260,19 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>725</x>
-      <y>445</y>
+      <x>420</x>
+      <y>440</y>
       <w>150</w>
       <h>150</h>
     </coordinates>
-    <panel_attributes>lt=&lt;..</panel_attributes>
+    <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>280.0;10.0;10.0;10.0;10.0;280.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>460</y>
+      <x>765</x>
+      <y>455</y>
       <w>55</w>
       <h>15</h>
     </coordinates>
@@ -282,8 +282,8 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>975</x>
-      <y>545</y>
+      <x>670</x>
+      <y>540</y>
       <w>15</w>
       <h>45</h>
     </coordinates>
@@ -293,8 +293,8 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>540</y>
+      <x>275</x>
+      <y>535</y>
       <w>295</w>
       <h>90</h>
     </coordinates>
@@ -304,19 +304,19 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1100</x>
-      <y>545</y>
+      <x>795</x>
+      <y>540</y>
       <w>80</w>
       <h>120</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;220.0;140.0;220.0;140.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>495</y>
+      <x>85</x>
+      <y>490</y>
       <w>35</w>
       <h>15</h>
     </coordinates>
@@ -326,8 +326,8 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>460</x>
-      <y>550</y>
+      <x>155</x>
+      <y>545</y>
       <w>15</w>
       <h>45</h>
     </coordinates>
@@ -337,56 +337,56 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>345</x>
-      <y>540</y>
+      <x>40</x>
+      <y>535</y>
       <w>15</w>
       <h>55</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>585</x>
-      <y>625</y>
+      <x>280</x>
+      <y>620</y>
       <w>75</w>
       <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;..</panel_attributes>
+    <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>630</y>
+      <x>495</x>
+      <y>625</y>
       <w>75</w>
       <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;..</panel_attributes>
+    <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>725</y>
+      <x>280</x>
+      <y>710</y>
       <w>75</w>
       <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;..</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>585</x>
-      <y>715</y>
-      <w>95</w>
+      <x>495</x>
+      <y>710</y>
+      <w>75</w>
       <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;..</panel_attributes>
-    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
   </element>
 </diagram>
